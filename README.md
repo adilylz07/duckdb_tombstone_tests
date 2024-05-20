@@ -1,1 +1,3 @@
 # duckdb_tombstone_tests
+
+This project focuses on performance testing and optimization in DuckDB, specifically targeting the impact of tombstone (delete) operations on write latency. The primary script, `duckdb_tombstone_test.py`, includes functionality for setting up test environments, executing delete operations at varying percentages, and measuring the resultant write latencies. To set up the project, clone the repository, create a virtual environment, and install the necessary dependencies. You can run the performance tests with `python duckdb_tombstone_test.py --dataset path/to/dataset --iterations 100`. Contributions are welcome, and the project is licensed under the MIT License.
